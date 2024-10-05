@@ -18,6 +18,7 @@ document.getElementById('flipButton').addEventListener('click', function() {
     imgElement.src = imgResult;
     imgElement.alt = flipResult; 
     imgElement.id = 'resultImage'; 
+    imgElement.style.height = '300px';
     document.body.appendChild(imgElement);
 });
 
